@@ -87,7 +87,7 @@ Your app will be available at: `http://localhost:5173`
 
 ## 🖥️ Usage
 
-1. Enter a **city name** (e.g., "Cannes").
+1. Enter a **city name** (e.g., "Rouen").
 2. Select **trip dates** using the date picker.
 3. Click **Generate Itinerary**.
 4. View your **custom AI-generated itinerary** with:
