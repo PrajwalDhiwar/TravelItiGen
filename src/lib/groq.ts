@@ -4,7 +4,7 @@ import { getCityInfo } from './seasons';
 const groq = new Groq({
   apiKey: import.meta.env.VITE_GROQ_API_KEY,
   dangerouslyAllowBrowser: true,
-});
+}); //Since I decided to build this on Github Codespaces beacause I am a chad. Clearly living life dangerously.
 
 export async function generateItinerary(city: string, days: number = 1, startDate: Date): Promise<Itinerary> {
   const cityInfo = getCityInfo(city);
